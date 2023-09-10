@@ -29,11 +29,12 @@ darkLight.addEventListener("click", () => {
   body.classList.toggle("dark");
   if (body.classList.contains("dark")) {
     document.setI
-    darkLight.classList.replace("bx-sun", "bx-moon");
+    darkLight.classList.replace("bx-sun", "bx-moon
   } else {
     darkLight.classList.replace("bx-moon", "bx-sun");
   }
 });
+
 
 submenuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -49,5 +50,5 @@ submenuItems.forEach((item, index) => {
 if (window.innerWidth < 768) {
   sidebar.classList.add("close");
 } else {
-  sidebar.classList.remove("close");
-}
+ // sidebar.classList.remove("close");
+                         }
