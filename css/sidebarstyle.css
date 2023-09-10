@@ -28,7 +28,7 @@ body.dark {
 /* my css */
 
 .main-content-container{
-  padding-top: 70px;
+  padding-top: 80px;
   padding-left: 265px;
   transition: padding-left 0.4s ease;
 }
