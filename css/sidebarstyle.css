@@ -25,6 +25,16 @@ body.dark {
   --grey-color: #f2f2f2;
   --grey-color-light: #aaa;
 }
+/* my css */
+
+.main-content-container{
+  padding-top: 70px;
+  padding-left: 265px;
+  transition: padding-left 0.4s ease;
+}
+.sidebar.close ~ .main-content-container{
+  padding-left: 85px;
+}
 
 /* navbar */
 .navbar {
@@ -98,6 +108,7 @@ body.dark {
   padding: 60px 0;
   width: 80px;
 }
+
 .sidebar::-webkit-scrollbar {
   display: none;
 }
@@ -257,4 +268,10 @@ body.dark {
   .sidebar.close .bottom_content {
     left: -100%;
   }
+  .sidebar.close ~ .main-content-container{
+    padding-left: 5px;
+  }
+.sidebar ~ .main-content-container{
+  padding-left: 5px;
 }
+  }
